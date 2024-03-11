@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naif's photo gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Photo gallery</h1>
+    <h2>you can press on zoom in and out buttons or use the mouse wheel</h2>
+    <div class="imgDiv">
+        <img id="imgId" width="" height="" onmousewheel="handleMouseWheel(event)">
+
+        <button id="zoomin" onclick="zoomIn()">+</button>
+
+        <button id="zoomout" onclick="zoomOut()">-</button>
+    </div>
+
+    <div class="Chimg">
+    <label for="Cimg">Choose an image: </label>
+    <input type="file" id="Cimg" name="Cimg" accept="image/*" style="display: none;">
+    <button id ="browse" onclick="handleBrowseImage()">Browse</button>
+    <span id="selectedFileName">No image chosen</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

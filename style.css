@@ -1,0 +1,34 @@
+h1{
+
+margin-left: 45%;
+
+}
+
+h2{
+    margin-left: 25%;
+}
+
+.imgDiv{
+
+    margin-left: 30%;
+
+}
+
+.imgDiv button{
+
+    margin-right: 5px;
+    margin-left: 10px;
+    font-size: 15px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+.Chimg{
+
+    margin-top: 10px;
+
+    margin-left: 40%;
+
+}
